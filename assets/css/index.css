@@ -386,9 +386,9 @@ body {
         max-width: 20px;
     }
 }
-@media (min-width: 1200px) and (max-width: 1320px) { 
+@media (min-width: 1200px) and (max-width: 1350px) { 
   .mb-xl-12 {
-    margin-bottom: 7rem;
+    margin-bottom: 7rem !important;
   }
 } 
 @media (min-width: 1024px) and (max-width: 1199px) { 

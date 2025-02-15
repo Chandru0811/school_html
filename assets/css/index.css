@@ -1,5 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Poppins";
   margin: 0;
   padding: 0;
   background-color: #F8F8F8;
@@ -17,24 +18,21 @@ body {
   font-weight: 500;
 }
 
-.nav-item a {
-  font-weight: bold !important;
-}
 
 .nav-item a:hover {
-  color: teal !important;
+  color: #00A693 !important;
   font-weight: bold;
 }
 
 .btn-outline-custom {
-  color: teal;
-  border-color: teal;
+  color: #00A693;
+  border-color: #00A693;
   border-radius: 12px;
   box-shadow: 0 4px 8px 0 rgba(61, 185, 207, 0.26);
 }
 
 .btn-outline-custom:hover,.btn-outline-custom:active {
-  background-color: teal !important;
+  background-color: #00A693 !important;
   color: white !important;
 }
 
@@ -85,6 +83,12 @@ body {
     margin: auto;
 }
 }
+.text-AAAAAA {
+  color: #AAAAAA ;
+}
+.text-00A693{
+  color: #00A693 !important;
+}
 /* ===Hero Section=== */
 .hero-h1 {
   font-size: calc(1.475rem + 2.5vw);
@@ -104,22 +108,22 @@ body {
   }
 }
 .h1-span {
-  color: #009688;
+  color: #00A693;
   background: url("../images/circle-1.png");
   background-repeat: no-repeat;
   background-size: contain;
 }
 
 .dmore {
-  background: #009688;
-  border: 2px solid #009688;
+  background: #00A693;
+  border: 2px solid #00A693;
   color: #fff;
   border-radius: 12px;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
 .dmore:focus {
-  background: #009688;
-  border: 2px solid #009688;
+  background: #00A693;
+  border: 2px solid #00A693;
   color: #fff;
   border-radius: 12px;
   box-shadow: 0rem 0.5rem 1rem #33b8a982 !important;
@@ -128,8 +132,8 @@ body {
 .dmore:hover,
 .dmore:active {
   background: #f7f7f7;
-  border: 2px solid #009688 !important;
-  color: #009688 !important;
+  border: 2px solid #00A693 !important;
+  color: #00A693 !important;
   border-radius: 12px;
 }
 
@@ -148,7 +152,7 @@ body {
     font-size: calc(1.2rem + 1.5vw) !important;
   }
   .cp {
-    font-size: large !important;
+    font-size: 16px !important;
   }
   .border-s {
     border-top-left-radius: 15px;
@@ -162,7 +166,7 @@ body {
   }
 }
 .cp {
-  font-size: x-large;
+    font-size: 16px;
   color: #ff9d01;
 }
 
@@ -230,15 +234,15 @@ body {
 
 .feature h3 {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 600;
 }
 
 .feature p {
   font-size: 14px;
-  color: #666;
+  color: #4B4B4B;
 }
 .w-30 {
-  max-width: 30px;
+  max-width: 40px;
 }
 .feature-bg {
     background: url("../images/feature_bg.webp");
@@ -262,8 +266,9 @@ body {
     background-color: #e0f7f4;
 }
 .sg-card .fs5 {
-    color: #009688;
-    font-size: calc(0.9rem + 0.5vw)
+    color: #00A693;
+    font-size: calc(0.9rem + 0.5vw);
+    font-weight: 500;
 }
 .sg-card p {
     font-size: calc(0.6rem + 0.5vw);
@@ -297,6 +302,7 @@ body {
     line-height: 1.2;
 }
 .sg-testimonial p {
+  color: #000000;
     font-size: calc(0.7rem + 0.5vw);
   }
   .sg-r-arrow-img {
@@ -321,23 +327,25 @@ body {
     font-weight: 600 !important;
 }
 .sg-banner p{
-    font-size: calc(0.7rem + 0.5vw);
+    font-size: calc(0.6rem + 0.5vw);
 }
 .cus-badge {
     background-color: #33B8A9;
     font-size: 12px;
+}
+.sg-banner-bg span {
+  border-radius: 16px;
 }
 .badge-icon {
     height: auto;
     max-width: 24px;
 }
 .app_link_img {
-    height: 30px;
+    height: auto;
     max-width: 120px;
 }
 .know-more{
     color: #ffffff !important;
-    text-decoration-line: underline;
 }
 @media (max-width: 767px) {
     .sg-banner {
@@ -371,25 +379,27 @@ body {
     .cus-badge {
         font-size: 10px !important;
     }
-    .app_link_img {
+    /* .app_link_img {
         height: 40px !important;
-    }
+    } */
     .badge-icon {
         max-width: 20px;
     }
 }
+@media (min-width: 1200px) and (max-width: 1320px) { 
+  .mb-xl-12 {
+    margin-bottom: 7rem;
+  }
+} 
 @media (min-width: 1024px) and (max-width: 1199px) { 
     .sg-banner-bg {
         min-height: 460px !important;
-    }
-    .app_link_img {
-        height: 48px !important;
     }
     .badge-icon {
         max-width: 21px;
     }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1300px) {
     .app_link_img {
         height: auto;
         max-width: 200px;
@@ -421,7 +431,7 @@ body {
 }
 @media (max-width: 767px) {
     .sg-contact h5 {
-        font-size: calc(1.1rem + 1.1vw) !important; 
+        font-size: calc(1rem + 1.1vw) !important; 
     }
     .smr-bg  {
         max-width: 81px;

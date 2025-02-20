@@ -316,7 +316,7 @@ body {
     color: #ffffff;
   }
   .sg-banner-bg {
-    background-image: url("../images/sg_banner_bg.webp");
+    background-image: url("../images/SAppBanner.png");
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 670px;
